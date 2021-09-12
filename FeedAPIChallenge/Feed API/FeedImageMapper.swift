@@ -8,7 +8,7 @@
 
 import Foundation
 
-internal struct FeedImageMapper {
+struct FeedImageMapper {
 	private struct Root: Decodable {
 		let items: [Item]
 
